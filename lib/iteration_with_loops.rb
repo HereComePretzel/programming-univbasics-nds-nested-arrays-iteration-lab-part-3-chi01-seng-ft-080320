@@ -6,7 +6,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       if src[element_index][row_index].class == String
         only_strings << src[element_index][row_index] + " "
-    end
+      end
       element_index += 1 
     end
     row_index += 1 
