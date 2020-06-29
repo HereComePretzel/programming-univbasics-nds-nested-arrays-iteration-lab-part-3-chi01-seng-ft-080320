@@ -1,11 +1,11 @@
 def join_nested_strings(src)
   row_index = 0 
   only_strings = ""
-  while row_index < mixed_data.count do
+  while row_index < array.count do
     element_index = 0 
-    while element_index < mixed_data[row_index].count do
+    while element_index < array[row_index].count do
       only_strings +=
-      mixed_data[row_index][element_index]
+      array[row_index][element_index]
       element_index += 1 
     end
     row_index += 1 
